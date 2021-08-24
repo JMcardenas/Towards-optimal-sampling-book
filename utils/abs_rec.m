@@ -1,21 +1,22 @@
-%--- Description ---%
+%-------------------------------------------------------------------------%
 %
 % Filename: abs_rec.m
-% Authors: Ben Adcock, Simone Brugiapaglia and Clayton Webster
-% Part of the book "Sparse Polynomial Approximation of High-Dimensional
-% Functions", SIAM, 2021
+% Authors: Juan M. Cardenas and Ben Adcock
+% Part of the chapter book "Towards optimal sampling for learning sparse
+% approximation in high dimensions", Springer, 2021.
 %
-% Description: computes the absolute reciprocal function f_4 
+% Description:  computes the reciprocal of summatory of absolute value and 
+% square root of y
 %
-% Input:
-% y - m x d array of sample points
+% Inputs:
+% y - input vector 
 %
 % Output:
-% b - m x 1 array of function values at the sample points
+% b - function evaluated in y
+%-------------------------------------------------------------------------%
 
 function b = abs_rec(y)
 
-%[m,d] = size(y); 
-b     = 1./sum(sqrt(abs(y)),2);
+b = 1./sum(sqrt(abs(y)),2);
 
 end
