@@ -5,8 +5,7 @@
 % Part of the chapter book "Towards optimal sampling for learning sparse
 % approximation in high dimensions", Springer, 2021.
 %
-% Description:  computes the reciprocal of summatory of absolute value and 
-% square root of y
+% Description:  computes the m samples values 
 %
 % Inputs:
 % d- dimension
