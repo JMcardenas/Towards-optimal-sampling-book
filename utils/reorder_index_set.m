@@ -1,13 +1,17 @@
 %-------------------------------------------------------------------------%
-% Filename: reorder_index_set.m 
-% Programmer: Juan M. Cardenas 
-% Part of the chapter book "Towards optimal sampling for sparse 
-% approximation in high dimensions", Springer, 2021. 
 %
-% Description: This function reorder the index set of Q.
-%-------------------------------------------------------------------------%
+% Filename: reorder_index_set.m 
+% Authors: Juan M. Cardenas and Ben Adcock
+% Part of the chapter book "Towards optimal sampling for learning sparse
+% approximation in high dimensions", Springer, 2021.
+%
+% Description:   This function reorder the index set for the matrix Q.
+%
 % Inputs: 
 % I - index set
+%
+% Output:
+% J - new index set 
 %-------------------------------------------------------------------------%
 
 function J = reorder_index_set(I,n_values)
