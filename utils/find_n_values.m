@@ -1,3 +1,21 @@
+%-------------------------------------------------------------------------%
+%
+% Filename: find_n_vals.m
+% Authors: Juan M. Cardenas and Ben Adcock
+% Part of the chapter book "Towards optimal sampling for learning sparse
+% approximation in high dimensions", Springer, 2021.
+%
+% Description:  computes the reciprocal of summatory of absolute value and 
+% square root of y
+%
+% Inputs:
+% d- dimension
+% N_max - maximum size of index set 
+%
+% Output: 
+% n_values - n values, degree of index sets 
+%-------------------------------------------------------------------------%
+
 function n_values = find_n_values(N_max,d)
      
 n_max = find_order('HC',d,N_max);
