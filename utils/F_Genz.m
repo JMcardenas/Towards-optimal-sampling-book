@@ -1,19 +1,21 @@
-function output = F_Genz(y)
+  
 %-------------------------------------------------------------------------%
-% Description: function for compute the Genz product peak
-% Programer: Juan Manuel Cardenas
-% Date: May 10-2019 / Last modification : May 24 - 2021
+%
+% Filename: F_Genz.m
+% Authors: Juan M. Cardenas and Ben Adcock
+% Part of the chapter book "Towards optimal sampling for learning sparse
+% approximation in high dimensions", Springer, 2021.
+%
+% Description:  computes the genz peak product function
+%
+% Inputs:
+% y - input vector 
+%
+% Output:
+% output - genz peak product function evaluated in y
 %-------------------------------------------------------------------------%
 
-% y = y';
-% [d,m] = size(y);
-% ind = [1:d]';
-% aux = ind + 1;
-% v_1 = (y + (( (-1).^aux )./aux ) ).^2 ; 
-% v_2 = (d/4) + v_1 ; 
-% v_3 = (d/4)./(v_2);
-% f = prod(v_3);
-% f = f';
+function output = F_Genz(y)
 
 [m,d] = size(y);
 ind    = [1:d];
