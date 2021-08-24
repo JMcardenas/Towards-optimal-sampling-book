@@ -1,3 +1,24 @@
+%-------------------------------------------------------------------------%
+%
+% Filename: abs_rec.m
+% Authors: Juan M. Cardenas and Ben Adcock
+% Part of the chapter book "Towards optimal sampling for learning sparse
+% approximation in high dimensions", Springer, 2021.
+%
+% Description:  computes the reciprocal of summatory of absolute value and 
+% square root of y
+%
+% Inputs:
+% N_values - sizes of index set
+% n_values - maximum degree of index set
+% d - dimension
+% opt - 1 input is N_values, 2 input is n_values
+%
+% Output:
+% n_vals - n values, maximum degree of index sets 
+% N_vals - N values, size of index sets
+%-------------------------------------------------------------------------%
+
 function [n_vals,N_vals] = find_BigN_values(N_values,n_values,d,opt)
  
 if opt == 1
