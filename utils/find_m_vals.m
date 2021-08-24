@@ -1,3 +1,27 @@
+%-------------------------------------------------------------------------%
+%
+% Filename: find_m_vals.m
+% Authors: Juan M. Cardenas and Ben Adcock
+% Part of the chapter book "Towards optimal sampling for learning sparse
+% approximation in high dimensions", Springer, 2021.
+%
+% Description:  computes the reciprocal of summatory of absolute value and 
+% square root of y
+%
+% Inputs:
+% d- dimension
+% n_max - maximum degree of index set
+% max_div - maximum division
+% N_values - sizes of index sets 
+% opt - option, 1 input is n_max, 2 input is N_values
+%
+% Output:
+% m_values - m samples values 
+% n_values - n values, degree of index sets
+% N_values - size of index sets
+% k_ratios - k ratios 
+%-------------------------------------------------------------------------%
+
 function [m_values,n_values,N_values,k_ratios] = find_m_vals(d,n_max,max_div,N_values,opt)
 
 
