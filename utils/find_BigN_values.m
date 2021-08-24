@@ -1,6 +1,6 @@
 %-------------------------------------------------------------------------%
 %
-% Filename: abs_rec.m
+% Filename: find_BigN_values.m
 % Authors: Juan M. Cardenas and Ben Adcock
 % Part of the chapter book "Towards optimal sampling for learning sparse
 % approximation in high dimensions", Springer, 2021.
