@@ -10,4 +10,7 @@ If you have questions or comments about the code, please contact [ben_adcock@sfu
 # Code organization 
 Files are organized into four main directories:
 
+## src 
+Contains the main Matlab files used to create figures in each chapter
+Organized in chapters
 
