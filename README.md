@@ -5,6 +5,6 @@ This is a repository associated with the chapter book:
 
 to be published by Springer in late 2021.
 
-If you have questions or comments about the code, please contact [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Sans)
+If you have questions or comments about the code, please contact [ben_adcock@sfu.ca](mailto:ben_adcock@sfu.ca?subject=[GitHub]%20Source%20Han%20Sans)
 
 # Code organization 
