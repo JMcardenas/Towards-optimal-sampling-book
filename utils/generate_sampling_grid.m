@@ -1,11 +1,13 @@
 %-------------------------------------------------------------------------%
+
 % Filename: generate_sampling_grid.m
-% Part of the chapter book "Towards optimal sampling for sparse 
+% Authors: Juan M. Cardenas and Ben Adcock
+% Part of the chapter book "Towards optimal sampling for learning sparse
 % approximation in high dimensions", Springer, 2021.
-%-------------------------------------------------------------------------%
+%
 % Description: generates a random sampling grid using either the uniform, 
 % Chebyshev (arcsine) measure, or optimal measure defined by 7.5.3.
-%-------------------------------------------------------------------------%
+%
 % Inputs: 
 % samp_type - either 'uniform' (uniform measure) or 'Chebyshev' 
 %    (Chebyshev measure)
