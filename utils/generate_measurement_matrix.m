@@ -1,6 +1,6 @@
 %-------------------------------------------------------------------------%
 % Filename   : generate_measurement_matrix.m
-% Programmer : Juan M. Cardenas
+% Programmer : Juan M. Cardenas and Ben Adcock
 % Part of the book "Sparse Polynomial Approximation of High-Dimensional
 % Functions", SIAM, 2021.
 % ***This code is based on the following work***
