@@ -27,4 +27,4 @@ Organized in chapters
 
 These generaically take the form 
 
-fig_[chapt][number]_[row]_[col]
+fig_[chapt][number]_\[row]_[col]
