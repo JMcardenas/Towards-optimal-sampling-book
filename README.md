@@ -27,5 +27,4 @@ Organized in chapters
 
 These generaically take the form 
 
-fig_[chpt][number]_[col] or figs_[chpt][number1]_[chpt][number2]_[row]_[col]
-
+\fig_[chapt][number]_[col]
