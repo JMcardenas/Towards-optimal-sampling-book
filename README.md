@@ -1,5 +1,5 @@
 # Towards-optimal-sampling-book
-This is a repository associated with the chapter book:
+This is a repository associated with the book chapter:
 
 _Towards optimal sampling for learning sparse approximations in high dimensions_ by Ben Adcock, Juan M. Cardenas, Nick Dexter and Sebastian Moraga 
 
