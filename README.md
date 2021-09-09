@@ -7,7 +7,8 @@ to be published by Springer in late 2021.
 
 If you have questions or comments about the code, please contact [ben_adcock@sfu.ca](mailto:ben_adcock@sfu.ca?subject=[GitHub]%20Source%20Han%20Sans), [jcardena@sfu.ca](mailto:jcardena@sfu.ca?subject=[GitHub]%20Source%20Han%20Sans), [nicholas_dexter@sfu.ca](mailto:nicholas_dexter@sfu.ca?subject=[GitHub]%20Source%20Han%20Sans) or [smoragas@sfu.ca](mailto:smoragas@sfu.ca?subject=[GitHub]%20Source%20Han%20Sans).
 
-Parts of this repository are based on the code in the repository https://github.com/simone-brugiapaglia/sparse-hd-book
+Parts of this repository are based on the code for the book Sparse Polynomial Approximation of High-Dimensional Functions by Ben Adcock, Simone Brugiapaglia and Clayton G. Webster, which is available in the repository https://github.com/simone-brugiapaglia/sparse-hd-book
+
 # Code organization 
 Files are organized into four main directories:
 
