@@ -1,9 +1,9 @@
-%--- Description ---%
+%----------------------------------------------------------------------------%
 %
 % Filename: plot_book_style.m
-% Authors: Ben Adcock, Simone Brugiapaglia and Clayton Webster
-% Part of the book "Sparse Polynomial Approximation of High-Dimensional
-% Functions", SIAM, 2021
+% Authors: Juan M. Cardenas and  Ben Adcock
+% Part of the chapter book "Towards optimal sampling for learning sparse
+% approximation in high dimensions", Springer, 2021.
 %
 % Description: Given random data associated 
 % The plot shows the mean curve and a filled-in area defined by [mean - std
@@ -35,7 +35,8 @@
 % Output:
 % hMeanPlots - handle correspoing to the mean plots only (to be used to add
 % a legend)
-
+%--------------------------------------------------------------------------%
+ 
 function [hMeanPlots] = plot_book_style_each_curve(x_data, y_data, type, stat, n_curve)
 
 %% Set data parameters
