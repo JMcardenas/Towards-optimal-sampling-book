@@ -28,3 +28,5 @@ Organized in chapters
 These generaically take the form 
 
 fig_[chapt][number]\_[row]_[col]
+
+where [chpt] is the chapter number, [number], [number1] and [number2] are the figure numbers and [row] and [col] are the row number and column number is multi-panel figures.
